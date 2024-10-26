@@ -1,0 +1,18 @@
+@mixin f ($j, $a) {display: flex; justify-content: $j; align-items: $a;}
+
+$lightBack: #FFF;
+$darkBack: #000;
+
+
+// $lightBlockBack: rgba(255, 255, 255, 0.7);
+// $darkBlockBack: rgba(0, 0, 0, 0.7);
+$lightBlockBack: rgba(255, 255, 255);
+$darkBlockBack: rgba(0, 0, 0);
+
+$lightBlockBorder: rgba(255, 255, 255, 0.7);
+$darkBlockBorder: rgba(0, 0, 0, 0.7);
+
+$lightText: rgba(0, 0, 0, 0.7);
+$darkText: rgba(255, 255, 255, 0.8);
+
+$borderRadius: 25px;

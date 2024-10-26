@@ -1,0 +1,141 @@
+@media (max-width: 1024px) {
+    .header {
+        padding: 0px 10px;    
+        &__link {
+            line-height: 18px;
+            font-size: 10px;
+            &_big {
+                font-size: 12px;
+            }
+        }
+        &__nav {
+            @include f(space-evenly, center);
+            width: 50%;
+            position: relative;
+            padding: 10px;
+            &_big {
+                width: 80%;
+                transition: width 0.5s ease; 
+            }
+    
+            &_dark {
+                background-color: $darkBlockBack;
+                border-radius: 0px 0px 0px $borderRadius;
+                padding-right: 50px;
+    
+            }
+    
+            &_light {
+                background-color: $lightBlockBack;
+                border-radius: 0px 0px $borderRadius 0px;
+                padding-left: 50px;
+            }
+        }
+    }
+    .aboutCityCard {    
+        width: 100%;
+        &__title {
+            font-size: 18px;
+            color: $lightText;
+            text-transform: uppercase;
+            text-align: center;
+            align-items: center;
+        }
+        &__titleContainer{
+            margin-top: 25px;
+            @include f(center, center);
+            height: auto;
+    
+        }
+        &__description {
+            margin-top: 15px;
+            font-size: 14px;
+            color: $lightText;
+            text-align: center;
+            position: relative;
+            transition: margin 0.2s;
+            &_hovered{
+                margin-top: 25px
+            }
+        }
+    }
+
+}
+@media (max-width: 768px) {
+    .header {
+        position: absolute;
+        &__logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 52px;
+            width: 39px;
+            z-index: 4;
+            transition: transform 0.5s ease; 
+            &_center{
+                transition: none;
+            }
+            &_left {
+                left: 33%;
+                transform: translate(50%, -50%);
+            }
+    
+            &_right {
+                left: 61%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    
+        &__container {
+            min-height: 100px;
+            height: auto;
+        }
+    
+        &__link {
+            line-height: 18px;
+            font-size: 10px;
+            margin: 5px 0px;
+            text-align: center;
+            &_big {
+                font-size: 12px;
+            }
+        }
+        &__nav {
+            width: 50%;
+            position: relative;
+            padding: 10px;
+            flex-direction: column;
+
+            &_big {
+                width: 80%;
+                transition: width 0.5s ease; 
+            }
+    
+            &_dark {
+                background-color: $darkBlockBack;
+                border-radius: 0px 0px 0px $borderRadius;
+                padding-right: 50px;
+    
+            }
+    
+            &_light {
+                background-color: $lightBlockBack;
+                border-radius: 0px 0px $borderRadius 0px;
+                padding-left: 50px;
+            }
+        }
+    }
+    
+}
+@media (max-width: 480px) {
+    .header {    
+        &__link {
+            font-size: 8px;
+            &_big {
+                font-size: 10px;
+            }
+        }
+    }
+
+}

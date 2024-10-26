@@ -1,0 +1,191 @@
+.photoGallery {
+    border-radius: 50px 50px 0px 0px;
+    position: relative;
+    top: -100px;
+    z-index: 3;
+    background-color: #fff;
+    padding-top: 50px;
+    &__title {
+        font-size: 28px;
+        text-align: center;
+        //margin-bottom: 50px;
+        color: $lightText;
+    }
+    &__hr{
+        margin: 30px auto;
+        width: 200px;
+        border: 1px solid $lightText;
+    }
+    &__description {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 30px;
+        color: $lightText;
+    }
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+
+.aboutCity {
+    margin-bottom: 100px;
+    border-radius: 50px 50px 0px 0px;
+    border-top: 3px solid $darkBlockBorder;
+    &__title {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 50px;
+        color: $lightText;
+    }
+    &__hr {
+        margin: 30px auto;
+        width: 200px;
+        border: 1px solid $lightText;
+    }
+    &__description {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: $lightText;
+    }
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+}
+.citizens {
+    margin-bottom: 100px;
+    border-radius: 50px 50px 0px 0px;
+    border-top: 3px solid $darkBlockBorder;
+    &__title {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 50px;
+        color: $lightText;
+    }
+    &__hr {
+        margin: 30px auto;
+        width: 200px;
+        border: 1px solid $lightText;
+    }
+    &__description {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: $lightText;
+        padding: 0px 30px;
+    }
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .photoGallery {
+        padding: 50px 10px 0px 10px;
+    }
+    .aboutCity {
+        &__content {
+            padding: 0px 10px;
+            gap: 30px;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+        }
+    }
+    .citizens {
+        &__content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin: 0 auto;
+            padding: 0px 10px;
+            padding-bottom: 10px;
+        }
+    }
+
+
+    
+}
+@media (max-width: 768px) {
+    .photoGallery {
+        top: -100px;
+        &__title {
+            font-size: 22px;
+            text-align: center;
+            color: $lightText;
+        }
+        &__description {
+            font-size: 12px;
+        }
+        &__content {
+            grid-template-columns: repeat(auto-fill, minmax(243px, 1fr));
+        }
+    }
+    .aboutCity {
+        &__title {
+            font-size: 22px;
+        }
+        &__description {
+            font-size: 12px;
+        }
+        &__content {
+            display: grid;
+            gap: 50px;
+            max-width: 1024px;
+            margin: 0 auto;
+            padding-bottom: 10px;
+        }
+    }
+    .citizens {
+        &__title {
+            font-size: 22px;
+            text-align: center;
+            margin-top: 50px;
+            color: $lightText;
+        }
+        &__description {
+            font-size: 12px;
+        }
+    
+        &__content {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 30px;
+        }
+    }
+
+
+}
+@media (max-width: 480px) {
+    .aboutCity {
+        &__content {
+            padding: 0px 10px;
+            gap: 20px;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+
+        }
+    }
+    .citizens {
+        &__content {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 30px;
+            padding: 0px 50px;
+        }
+    }
+
+}
