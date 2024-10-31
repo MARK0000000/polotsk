@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/polotsk/static/css/main.6a445a65.css",
-    "main.js": "/polotsk/static/js/main.223df6c1.js",
+    "main.css": "/polotsk/static/css/main.4ab168ed.css",
+    "main.js": "/polotsk/static/js/main.bf564f87.js",
     "static/media/item4.jpg": "/polotsk/static/media/item4.e717b258c8956010f825.jpg",
     "static/media/item40.jpg": "/polotsk/static/media/item40.01137857420b29701da7.jpg",
     "static/media/item37.jpg": "/polotsk/static/media/item37.7dd5b39a501c356430f1.jpg",
@@ -18,6 +18,7 @@
     "static/media/item13.jpg": "/polotsk/static/media/item13.9ba576961e3cbbfee368.jpg",
     "static/media/item18.jpg": "/polotsk/static/media/item18.0cf097e7d4a360664dc2.jpg",
     "static/media/cinelli.jpeg": "/polotsk/static/media/cinelli.3540fbc173368afc390d.jpeg",
+    "static/media/item32.jpg": "/polotsk/static/media/item32.ae7e545c45a02b9f75e4.jpg",
     "static/media/item20.jpg": "/polotsk/static/media/item20.0f3a71570a91a3395d83.jpg",
     "static/media/item23.jpg": "/polotsk/static/media/item23.ec2ba391a9ba115b52e8.jpg",
     "static/media/item25.jpg": "/polotsk/static/media/item25.5631efcb110acc45288f.jpg",
@@ -28,10 +29,12 @@
     "static/media/item7.jpg": "/polotsk/static/media/item7.c1ebf55d1788acfc1e0d.jpg",
     "static/media/item3.jpg": "/polotsk/static/media/item3.6d8eccfc4b85e93cabe1.jpg",
     "static/media/item15.jpg": "/polotsk/static/media/item15.c47cd9d3495d984b8045.jpg",
+    "static/media/item27.jpg": "/polotsk/static/media/item27.137330999d7b6f55c8fb.jpg",
     "static/media/item24.jpg": "/polotsk/static/media/item24.dcb5140e429aad58c973.jpg",
     "static/media/item22.jpg": "/polotsk/static/media/item22.5f2cf005f0b93f89acd0.jpg",
     "static/media/profile-06.jpg": "/polotsk/static/media/profile-06.7498f03d14d287207932.jpg",
     "static/media/item11.jpg": "/polotsk/static/media/item11.50fb5d5ce94b7c46f660.jpg",
+    "static/media/item28.jpg": "/polotsk/static/media/item28.ebf5a6855733f2f0ccca.jpg",
     "static/media/item8.jpg": "/polotsk/static/media/item8.e93f2ce62c4d1cea6b6e.jpg",
     "static/media/profile-04.jpg": "/polotsk/static/media/profile-04.f44727bf10a3ed219d3c.jpg",
     "static/media/profile-05.jpg": "/polotsk/static/media/profile-05.abc09d3fae28946c86bf.jpg",
@@ -41,11 +44,11 @@
     "static/media/profile-02.jpg": "/polotsk/static/media/profile-02.045732975ff616110be6.jpg",
     "index.html": "/polotsk/index.html",
     "static/media/plus.svg": "/polotsk/static/media/plus.5bcaafa094514ed890c9.svg",
-    "main.6a445a65.css.map": "/polotsk/static/css/main.6a445a65.css.map",
-    "main.223df6c1.js.map": "/polotsk/static/js/main.223df6c1.js.map"
+    "main.4ab168ed.css.map": "/polotsk/static/css/main.4ab168ed.css.map",
+    "main.bf564f87.js.map": "/polotsk/static/js/main.bf564f87.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a445a65.css",
-    "static/js/main.223df6c1.js"
+    "static/css/main.4ab168ed.css",
+    "static/js/main.bf564f87.js"
   ]
 }
