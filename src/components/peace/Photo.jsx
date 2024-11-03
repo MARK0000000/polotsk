@@ -8,7 +8,7 @@ import img6 from '../../img/photoGallery/item8.jpg'
 import img7 from '../../img/photoGallery/item11.jpg'
 import img8 from '../../img/photoGallery/item12.jpg'
 import img9 from '../../img/photoGallery/item13.jpg'
-import img10 from '../../img/photoGallery/item4.jpg'
+import img10 from '../../img/photoGallery/item14.jpg'
 import img11 from '../../img/photoGallery/item15.jpg'
 import img12 from '../../img/photoGallery/item16.jpg'
 
@@ -38,7 +38,7 @@ export default function Photo() {
     {
       id: 5,
       url: img5,
-      title: "Богоявленский собор",
+      title: "Панорама Полоцка",
     },
     {
       id: 6,
@@ -48,17 +48,17 @@ export default function Photo() {
     {
       id: 7,
       url: img7,
-      title: "Панорама Полоцка",
+      title: "Зимний софийский собор",
     },
     {
       id: 8,
       url: img8,
-      title: "Парк атракционов",
+      title: "Богоявленский собор",
     },
     {
       id: 9,
       url: img9,
-      title: "Зимний софийский собор",
+      title: "Парк атракционов",
     },
     {
       id: 10,
@@ -78,13 +78,13 @@ export default function Photo() {
   ])
   
   return (
-    <section className='photoGallery' >
-      <h2 className="photoGallery__title" id='photo'>ГОРОД В ОБЪЕКТИВЕ</h2>
-      <hr className="photoGallery__hr" />
-      <p className="photoGallery__description">Нет города красивее Полоцка на просторах нашей страны.</p>
+    <section className='photoGallery photoGallery_light' >
+      <h2 className="photoGallery__title photoGallery__title_light" id='photo'>ГОРОД В ОБЪЕКТИВЕ</h2>
+      <hr className="photoGallery__hr photoGallery__title_light" />
+      <p className="photoGallery__description photoGallery__description_light">Нет города красивее Полоцка на просторах нашей страны.</p>
       <div className="photoGallery__content">
         {data.map((item, index) => 
-            <ImageCard key={index} data={item}/>
+            <ImageCard key={index} data={item} mode={'light'}/>
         )}
       </div>
     </section>

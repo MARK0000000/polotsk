@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 
 import image from '../../img/slider/cinelli.jpeg'
 
-export default function MainSlider() {
+export default function MainSlider({data}) {
 
   return (
     <Swiper
@@ -22,22 +22,13 @@ export default function MainSlider() {
       }}
       modules={[Autoplay]}
     >
-      <SwiperSlide
-        className='mainSlider__slide'
-        >
-        <img src={image} className='mainSlider__image' alt="" />
-      </SwiperSlide>
-      <SwiperSlide
-        className='mainSlider__slide'
-        >
-        <img src={image} className='mainSlider__image' alt="" />
-      </SwiperSlide>
-      <SwiperSlide
-        className='mainSlider__slide'
-        >
-        <img src={image} className='mainSlider__image' alt="" />
-      </SwiperSlide>
-
+      {data.map((item) =>
+        <SwiperSlide
+          className='mainSlider__slide'
+          >
+          <img src={item.img} className='mainSlider__image' alt="" />
+        </SwiperSlide>
+      )}
   </Swiper>
 
   )

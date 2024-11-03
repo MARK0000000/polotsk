@@ -9,6 +9,7 @@ export default function Header() {
 
   const handleNavigate = (route) => {
     navigate(route, { replace: false });
+    window.scrollTo(0, 0)
     updateSide(route)
   }
   return (
@@ -20,23 +21,23 @@ export default function Header() {
           }
           {activeSide == 'war' && 
             <>
-              <Link className="header__link header__link_dark"  to={`history`} smooth={true}>
-                ИСТОРИЯ
+              <Link className="header__link header__link_dark"  to={`history`} smooth={true} offset={-170}>
+                ИСТОРИЧЕСКАЯ СПРАВКА
               </Link>
 
-              <Link className="header__link header__link_dark" to={`photo`} smooth={true}>
+              <Link className="header__link header__link_dark" to={`photo`} smooth={true} offset={-120}>
                 ФОТОХРОНИКА
               </Link>
 
-              <Link className="header__link header__link_dark" to={`memory`} smooth={true}>
+              <Link className="header__link header__link_dark" to={`memory`} smooth={true} offset={-170}>
                 ПАМЯТЬ
               </Link>
 
-              <Link className="header__link header__link_dark" to={`appeal`} smooth={true}>
-                ПОМНИМ, ЛЮБИМ. СКОРБИМ
+              <Link className="header__link header__link_dark" to={`appeal`} smooth={true} offset={-170}>
+                Я ПОМНЮ. Я ГОРЖУСЬ
               </Link>
 
-              <Link className="header__link header__link_dark" to={`quiz`} smooth={true}>
+              <Link className="header__link header__link_dark" to={`quiz`} smooth={true} offset={-170}>
                 ВИКТОРИНА
               </Link>
             </>
@@ -53,15 +54,19 @@ export default function Header() {
           }
           {activeSide == 'peace' && 
             <>
-              <Link className="header__link header__link_white" to={`photo`} smooth={true} offset={-150}>
+              <Link className="header__link header__link_white" to={`photo`} smooth={true} offset={-170}>
                 ГОРОД В ОБЪЕКТИВЕ
               </Link>
 
-              <Link className="header__link header__link_white" to={`aboutCity`} smooth={true} offset={-150}>
+              <Link className="header__link header__link_white" to={`aboutCity`} smooth={true} offset={-130}>
                 О ГОРОДЕ
               </Link>
 
-              <Link className="header__link header__link_white" to={`citizens`} smooth={true} offset={-150}>
+              <Link className="header__link header__link_white" to={`enterprises`} smooth={true} offset={-170}>
+                ПРЕДПРИЯТИЯ
+              </Link>
+
+              <Link className="header__link header__link_white" to={`citizens`} smooth={true} offset={-180}>
                 ПОЧЕТНЫЕ ГРАЖДАНЕ
               </Link>
             </>

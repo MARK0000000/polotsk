@@ -4,6 +4,7 @@
 @import 'global';
 @import 'libs';
 @import 'peace';
+@import 'war';
 
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -65,6 +66,7 @@
         font-size: 12px;
         animation: fadeIn 1s ;
         transition: opacity 0.5s ease;
+        padding: 0px 5px;
         &_big {
             font-size: 14px;
         }
@@ -142,13 +144,20 @@
 }
 
 .imageCard {
+    cursor: pointer;
     position: relative;
     border-radius: 16px;
     &__img {
         width: 100%;
         object-fit: contain;
         border-radius: 16px;
-        outline: 2px solid $darkBlockBorder;
+        &_dark{
+            outline: 2px solid $lightBlockBorder;
+
+        }
+        &_light{
+            outline: 2px solid $darkBlockBorder;
+        }
     }
     
     &__overlay {
@@ -157,17 +166,30 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.5); 
         display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 1; // Под текстом
+        z-index: 1; 
         border-radius: 16px;
+        &_dark{
+            background-color: rgba(255, 255, 255, 0.5);
+
+        }
+        &_light{
+            background-color: rgba(0, 0, 0, 0.5); 
+        }
+
     }
     
     &__textBox {
-        color: $darkText; 
         text-align: center;
+        &_dark{
+            color: $lightText; 
+        }
+        &_light{
+            color: $darkText; 
+        }
+        
     }
     
     &__title {
@@ -185,6 +207,9 @@
         aspect-ratio: 3/4;
         border-radius: 16px;
         outline: 2px solid $darkBlockBorder;
+        &_horizontal{
+            aspect-ratio: 16/9;
+        }
     }
     &__title {
         font-size: 20px;
@@ -194,7 +219,7 @@
         text-align: center;
     }
     &__description {
-        font-size: 14px;
+        font-size: 16px;
         color: $lightText;
         margin-top: 20px;
         padding: 0px 10px;
@@ -232,13 +257,12 @@
     }
     &__titleContainer{
         margin-top: 25px;
-        @include f(center, center);
         height: 84px;
 
     }
     &__description {
         margin-top: 15px;
-        font-size: 14px;
+        font-size: 16px;
         color: $lightText;
         text-align: center;
         position: relative;
@@ -250,7 +274,20 @@
         }
     }
 }
-
+.scrollToTop{
+    z-index: 5;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid #0065b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 svg{
     @include f(center, center);
 }
