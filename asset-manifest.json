@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/polotsk/static/css/main.87ae684c.css",
-    "main.js": "/polotsk/static/js/main.592f8714.js",
+    "main.css": "/polotsk/static/css/main.cde1643c.css",
+    "main.js": "/polotsk/static/js/main.e7dbe58b.js",
     "static/media/item4.jpg": "/polotsk/static/media/item4.e717b258c8956010f825.jpg",
     "static/media/item40.jpg": "/polotsk/static/media/item40.01137857420b29701da7.jpg",
     "static/media/item37.jpg": "/polotsk/static/media/item37.7dd5b39a501c356430f1.jpg",
@@ -35,6 +35,7 @@
     "static/media/profile-12.jpg": "/polotsk/static/media/profile-12.f3b4c64e7664b00b7660.jpg",
     "static/media/item13.jpg": "/polotsk/static/media/item13.9ba576961e3cbbfee368.jpg",
     "static/media/cinelli.jpeg": "/polotsk/static/media/cinelli.3540fbc173368afc390d.jpeg",
+    "static/media/item14.jpg": "/polotsk/static/media/item14.3540fbc173368afc390d.jpg",
     "static/media/item34.jpg": "/polotsk/static/media/item34.6550db18278eb44985d1.jpg",
     "static/media/item32.jpg": "/polotsk/static/media/item32.ae7e545c45a02b9f75e4.jpg",
     "static/media/item35.jpg": "/polotsk/static/media/item35.ff193d6a3b5ac404322d.jpg",
@@ -53,25 +54,36 @@
     "static/media/item22.jpg": "/polotsk/static/media/item22.5f2cf005f0b93f89acd0.jpg",
     "static/media/profile-06.jpg": "/polotsk/static/media/profile-06.7498f03d14d287207932.jpg",
     "static/media/item11.jpg": "/polotsk/static/media/item11.50fb5d5ce94b7c46f660.jpg",
+    "static/media/полспо.jpg": "/polotsk/static/media/полспо.960ce5ab8b63ddd49b4d.jpg",
     "static/media/item8.jpg": "/polotsk/static/media/item8.e93f2ce62c4d1cea6b6e.jpg",
+    "static/media/кимабел.jpg": "/polotsk/static/media/кимабел.6b7723a51749f3fbbf16.jpg",
     "static/media/profile-04.jpg": "/polotsk/static/media/profile-04.f44727bf10a3ed219d3c.jpg",
     "static/media/profile-05.jpg": "/polotsk/static/media/profile-05.abc09d3fae28946c86bf.jpg",
     "static/media/item2.jpg": "/polotsk/static/media/item2.4316fb92dd57ca3b5c73.jpg",
     "static/media/profile-01.jpg": "/polotsk/static/media/profile-01.1e3232928a7cfcee54f2.jpg",
     "static/media/profile-03.jpg": "/polotsk/static/media/profile-03.4ddaaf626998c26c0537.jpg",
+    "static/media/хлебзавод.jpg": "/polotsk/static/media/хлебзавод.b5f475b942ee867bdf88.jpg",
+    "static/media/молочный комбинат.jpg": "/polotsk/static/media/молочный комбинат.49e82bac5c727b0902b2.jpg",
+    "static/media/партизаны.jpg": "/polotsk/static/media/партизаны.6b90965076e131f45fc4.jpg",
+    "static/media/стекловолокно.jpg": "/polotsk/static/media/стекловолокно.8e59b6112da2437a519c.jpg",
+    "static/media/моготкес.jpg": "/polotsk/static/media/моготкес.8e1922ee83f2d6143a8b.jpg",
+    "static/media/liberation.jpg": "/polotsk/static/media/liberation.a4eea731cfa7a5d19bbf.jpg",
     "static/media/2.jpg": "/polotsk/static/media/2.398fcf036cc889e58b08.jpg",
     "static/media/1.jpg": "/polotsk/static/media/1.9bba5473a08d8366efd3.jpg",
+    "static/media/наследие скорины.jpg": "/polotsk/static/media/наследие скорины.640ee9dc480fd9ca3509.jpg",
+    "static/media/хлебный_комбинат.jpg": "/polotsk/static/media/хлебный_комбинат.41ffb3e73a45fa7b0966.jpg",
     "static/media/profile-02.jpg": "/polotsk/static/media/profile-02.045732975ff616110be6.jpg",
     "static/media/3.jpg": "/polotsk/static/media/3.c234a22b362ce6e0d7ff.jpg",
     "static/media/4.jpg": "/polotsk/static/media/4.c241d6753029904c63bc.jpg",
+    "static/media/scrollToTop.svg": "/polotsk/static/media/scrollToTop.5ef3fc8605509754ba979f92936225c7.svg",
     "index.html": "/polotsk/index.html",
     "static/media/plus.svg": "/polotsk/static/media/plus.5bcaafa094514ed890c9.svg",
     "static/media/plusBlack.svg": "/polotsk/static/media/plusBlack.4534923194254b9a08de.svg",
-    "main.87ae684c.css.map": "/polotsk/static/css/main.87ae684c.css.map",
-    "main.592f8714.js.map": "/polotsk/static/js/main.592f8714.js.map"
+    "main.cde1643c.css.map": "/polotsk/static/css/main.cde1643c.css.map",
+    "main.e7dbe58b.js.map": "/polotsk/static/js/main.e7dbe58b.js.map"
   },
   "entrypoints": [
-    "static/css/main.87ae684c.css",
-    "static/js/main.592f8714.js"
+    "static/css/main.cde1643c.css",
+    "static/js/main.e7dbe58b.js"
   ]
 }
