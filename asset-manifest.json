@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/polotsk/static/css/main.fd9973e3.css",
-    "main.js": "/polotsk/static/js/main.8f2de60e.js",
+    "main.js": "/polotsk/static/js/main.1baf885a.js",
     "static/media/item4.jpg": "/polotsk/static/media/item4.e717b258c8956010f825.jpg",
     "static/media/дом офицеров.png": "/polotsk/static/media/дом офицеров.58fa6493f4e523020269.png",
     "static/media/мост.png": "/polotsk/static/media/мост.3ecf31e527f5495b3bac.png",
@@ -96,10 +96,10 @@
     "static/media/plus.svg": "/polotsk/static/media/plus.5bcaafa094514ed890c9.svg",
     "static/media/plusBlack.svg": "/polotsk/static/media/plusBlack.4534923194254b9a08de.svg",
     "main.fd9973e3.css.map": "/polotsk/static/css/main.fd9973e3.css.map",
-    "main.8f2de60e.js.map": "/polotsk/static/js/main.8f2de60e.js.map"
+    "main.1baf885a.js.map": "/polotsk/static/js/main.1baf885a.js.map"
   },
   "entrypoints": [
     "static/css/main.fd9973e3.css",
-    "static/js/main.8f2de60e.js"
+    "static/js/main.1baf885a.js"
   ]
 }
