@@ -48,6 +48,9 @@
         max-width: 1024px;
         margin: 0 auto;
         color: $lightText;
+        &::first-letter{
+            margin-left: 20px;
+        }
     }
     &__title {
         font-size: 28px;

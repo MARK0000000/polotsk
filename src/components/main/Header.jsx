@@ -17,7 +17,7 @@ export default function Header() {
       <div className="header__container">
         <nav className={`header__nav header__nav_dark ${activeSide == 'war' && 'header__nav_big' }`}>
           {(activeSide == 'main' || activeSide == 'peace') && 
-            <a onClick={() => handleNavigate("war")} className="header__link header__link_big header__link_dark">ГОДЫ ОПАЛЕННЫЕ ВОЙНОЙ</a>
+            <a onClick={() => handleNavigate("war")} className="header__link header__link_big header__link_dark">ГОДЫ, ОПАЛЕННЫЕ ВОЙНОЙ</a>
           }
           {activeSide == 'war' && 
             <>

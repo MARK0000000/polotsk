@@ -63,7 +63,7 @@ export default function Photo() {
     <section id='photo' className='photoGallery photoGallery_dark'>
       <h2 className="photoGallery__title photoGallery__title_dark" id='photo'>ФОТОХРОНИКА</h2>
       <hr className="photoGallery__hr photoGallery__hr_dark" />
-      <p className="photoGallery__description photoGallery__description_dark">Фотографии Полоцка во времена Великой отечественной войны</p>
+      <p className="photoGallery__description photoGallery__description_dark">Фотографии Полоцка во времена Великой Отечественной войны</p>
       <div className="photoGallery__content">
         {data.map((item, index) => 
             <ImageCard key={index} data={item} mode={"dark"}/>

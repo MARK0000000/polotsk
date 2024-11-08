@@ -89,6 +89,9 @@
         text-align: left;
         margin-bottom: 30px;
         color: $darkText;
+        &::first-letter{
+            margin-left: 20px;
+        }
         &_quote {
             font-size: 16px;
             color: $darkText;
@@ -177,6 +180,10 @@
     &__text {
         font-size: 16px;
         margin-bottom: 10px;
+        &::first-letter{
+            margin-left: 20px;
+        }
+
     }
     &__dateBox {
         @include f(space-between, center);
@@ -257,6 +264,10 @@
             font-size: 16px;
             color: $darkText;
             margin-bottom: 20px;
+            &::first-letter{
+                margin-left: 20px;
+            }
+    
         }
     }
 }
